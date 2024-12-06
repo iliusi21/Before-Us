@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-page",
+  "version": "1.0.0",
+  "main": ".eleventy.js",
+  "scripts": {
+    "install": "npm install @11ty/eleventy --save-dev",
+    "start": "npx @11ty/eleventy --serve",
+    "clean": "rm-rf docs",
+    "deploy": "",
+    "deploy-subdomain": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "pagefind": "^1.2.0"
+  }
+}

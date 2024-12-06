@@ -1,0 +1,41 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-black" data-bs-theme="dark">
+    <div class="container-fluid">
+        <!-- Logo -->
+        <a class="navbar-brand" href="/index">
+            <img src="/images/logo.jpeg" alt="Logo" width="50" height="50">
+            Before Us
+        </a>
+
+        <!-- Botón para dispositivos móviles (hamburger) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Enlaces de navegación -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index/">🌟Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/acerca/">🌟Acerca</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/index" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        🌟Blog
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/articulos/">Artículos</a></li>
+                    </ul>
+                </li>
+                <!-- Buscador -->
+                <li class="nav-item">
+                    <form class="d-flex" id="searchForm" role="search">
+                        <input class="form-control me-2" type="search" id="searchInput" placeholder="Buscar en la página..." aria-label="Search">
+                        <button class="btn btn-outline-light" type="button" id="searchButton">Buscar</button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

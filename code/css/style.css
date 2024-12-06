@@ -1,0 +1,86 @@
+
+/* Navbar */
+.navbar {
+    background-color: #030202 !important;  /* Fondo oscuro con !important */
+    color: white !important;  /* Texto blanco */
+}
+
+.navbar-nav .nav-link {
+    color: white !important;  /* Los enlaces deben ser blancos */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #510275 !important;  /* Color claro al pasar el ratón */
+}
+
+/* Fondo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/images/start.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat:repeat;  /* Asegúrate de usar 'no-repeat' */
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: white;  /* Texto en blanco */
+}
+
+/* Enlaces blancos */
+.white-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.white-links a:hover {
+    color: #32005c;
+    text-decoration: underline;
+}
+
+/* Centrar imágenes */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Centrar el contenido de la página */
+.centered-content {
+    width: 80%;               /* Puedes ajustar el ancho según lo necesites */
+    margin: 0 auto;           /* Esto centra el bloque horizontalmente */
+    text-align: center;       /* Esto centra el texto dentro del contenedor */
+    padding: 20px;            /* Esto añade espacio alrededor del contenido */
+}
+/* Cambiar el color y tamaño de los enlaces */
+.container ul li a {
+    color: #ffffff; /* Color azul predeterminado */
+    font-size: 1.2rem; /* Tamaño más grande */
+    text-decoration: none; /* Elimina subrayado */
+  }
+  
+  /* Cambiar color al pasar el mouse */
+  .container ul li a:hover {
+    color: #510275; /* Color púrpura */
+    text-decoration: underline; /* Agrega subrayado al pasar el mouse */
+  }
+  .logo-container {
+    width: 300px; /* Ajusta según el tamaño deseado */
+    height: 300px; /* Mantén un tamaño consistente */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    display: flex;
+    align-items: center; /* Centra la imagen verticalmente */
+    justify-content: center; /* Centra la imagen horizontalmente */
+    overflow: hidden; /* Oculta el exceso si la imagen es más grande */
+}
+
+.logo-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Asegura que la imagen mantenga su proporción */
+}
+.highlight {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    padding: 0 2px;
+    border-radius: 2px;
+}
