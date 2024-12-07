@@ -13,17 +13,16 @@
     color: #510275 !important;  /* Color claro al pasar el ratón */
 }
 
-/* Fondo de la página */
 body {
     margin: 0;
     padding: 0;
-    background-image: url('/Before-Us/images/start.webp');
+    background-image: url('/images/start.webp'); /* Asegúrate que esta ruta sea correcta */
     background-size: cover;
     background-position: center;
-    background-repeat:repeat;  /* Asegúrate de usar 'no-repeat' */
+    background-repeat: repeat;
     height: 100vh;
     font-family: Arial, sans-serif;
-    color: white;  /* Texto en blanco */
+    color: white;
 }
 
 /* Enlaces blancos */
