@@ -11,7 +11,7 @@ module.exports = function(eleventyConfig) {
     dir: {
       input: "code",          // Carpeta de entrada con tus archivos .njk
       output: "docs",         // Carpeta de salida para los archivos generados
-      
+       includes: "_includes"
     },
   };
 };
