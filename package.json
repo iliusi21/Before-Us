@@ -8,6 +8,7 @@
     "clean": "rm -rf docs",
     "deploy": "npx @11ty/eleventy --pathprefix=/",
     "deploy-subdomain": "npx @11ty/eleventy --pathprefix=/Before-Us/"
+     
   },
   "keywords": [],
   "author": "",

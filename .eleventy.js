@@ -5,15 +5,13 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("code/js");
   eleventyConfig.addPassthroughCopy("code/json"); // Si "search-index.json" está aquí
 
-  // Agregar específicamente el archivo search-index.json
-  eleventyConfig.addPassthroughCopy("code/search.json");
+  
 
   return {
     dir: {
       input: "code",          // Carpeta de entrada con tus archivos .njk
       output: "docs",         // Carpeta de salida para los archivos generados
-      includes: "_includes",  // Carpeta donde se encuentran los layouts (asegúrate que esté dentro de "code")
-      data: "_data",          // Si tienes datos globales o archivos JSON, configúralos aquí
+      
     },
   };
 };
