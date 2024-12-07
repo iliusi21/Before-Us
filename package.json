@@ -5,9 +5,9 @@
   "scripts": {
     "install": "npm install @11ty/eleventy --save-dev",
     "start": "npx @11ty/eleventy --serve",
-    "clean": "rm-rf docs",
-    "deploy": "",
-    "deploy-subdomain": ""
+    "clean": "rm -rf docs",
+    "deploy": "npx @11ty/eleventy --pathprefix=/",
+    "deploy-subdomain": "npx @11ty/eleventy --pathprefix=/Before-Us/"
   },
   "keywords": [],
   "author": "",
@@ -18,3 +18,4 @@
     "pagefind": "^1.2.0"
   }
 }
+

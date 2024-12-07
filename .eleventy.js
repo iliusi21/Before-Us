@@ -3,7 +3,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("code/css");
   eleventyConfig.addPassthroughCopy("code/images");
   eleventyConfig.addPassthroughCopy("code/js");
-  eleventyConfig.addPassthroughCopy("code/json");
+  eleventyConfig.addPassthroughCopy("code/json"); // Si "search-index.json" está aquí
+
+  // Agregar específicamente el archivo search-index.json
+  eleventyConfig.addPassthroughCopy("code/search.json");
 
   return {
     dir: {
